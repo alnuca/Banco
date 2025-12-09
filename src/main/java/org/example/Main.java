@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        CuentaCorriente cuenta = new CuentaCorriente("12345678X", "Chan");
+        Cuenta cuenta = new Cuenta("12345678X", "Chan");
         int opcion = 0;
         boolean salir = false;
         do {
